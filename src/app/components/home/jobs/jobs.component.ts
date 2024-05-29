@@ -17,4 +17,12 @@ export class JobsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  /**
+   * Navigate to the company website
+   */
+  gotoWebsite(website: string) {
+    // window.location.href = website;
+    window.open(website, "_blank");
+  }
+
 }

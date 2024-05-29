@@ -27,40 +27,43 @@
             "Tab": "Carelon",
             "FullName": "Carelon Global Solutions",
             "Title": "Software Engineer",
+            "Website": "https://www.carelonglobal.in/",
             "Date": "Sep 2020 - Present",
             "Description": [
-                "Technical decision leader",
-                "Technical talent recruitment for the company",
-                "Department of Technology team leader",
-                "Creation and maintenance of an internal process management platform for sales courses",
-                "Programming of custom functions and plugins for customization of a WordPress platform",
-                "Implementation of continuous integration and daily backups.",
-                "Planning meetings with reports."
+                "Involved in developing of a healthcare web app by incorporating user-centered design, Using Angular and Material UI",
+                "Implemented HTTP requests using RxJS library to handle asynchronous behaviour",
+                "Implemented reusable components and custom directives using Angular",
+                "Collaborating with backend development, QA, and E2E testing teams to meet product requirements, resulting in decreasing the bug reports and improved system stability",
+                "Collaborating with application architect to discuss the requirements and system design",
+                "Conduct code reviews, providing coding standards recommendations and resolving code vulnerabilities",
+                "Leading a team of 5 UI developers in the development of a healthcare web app"
             ]
       },
       {
             "Tab": "Orbio",
             "FullName": "Orbio Solutions Pvt Ltd",
             "Title": "UI Developer",
+            "Website": "https://www.orbiosolutions.com/",
             "Date": "December 2018 - Apr 2020",
             "Description": [
-              "Creation and maintenance of a monitoring platform with graphics in WordPress.",
-              "Functional programming in templates and plugins to add the necessary monitoring features.",
-              "Implementation of continuous integration and daily backups.",
-              "Creation and maintenance of a second Monitoring Platform Done in Angular, Angular Material, Laravel, Mysql, RxJS, Sass with graphics (configurable), alarm system, and user management and configuration of general parameters.",
-              "Planning meetings in reports."
+              "I was a key contributor in developing the major health insurarance web app",
+              "Optimized existing web application performance by refactoring code and improving page load times",
+              "Developed responsive designs that adapts to different screen sizes and devices using HTML5, CSS media query, Bootstrap and grid layout",
+              "Ensured seamless integration with the overall application by working on REST/Web API  and testing with Postman",
+              "Collaborating with agile development team to develop and maintain the application"
             ]
         },
         {
             "Tab": "Winjit",
             "Title": "Software Developer",
             "FullName": "Winjit Technologies Pvt Ltd",
+            "Website": "https://winjit.com/",
             "Date": "Jun 2018 - Nov 2018",
             "Description": [
-              "Implementing continuous improvements, working on frontend and backend.",
-              "Creating platforms with Angular, Laravel, ExpressJS, WordPress programmed with functional, reactive, and object-oriented programming paradigms.",
-              "Automation of processes with data structures.",
-              "Design layout with SASS, Bootstrap, Materialize, Bulma, etc."
+              "Developed an E-Commerce web application using Angular, HTML, CSS, Bootstrap and PrimeNG.",
+              "Created re-usable components and stylesheets based on coding standards and guidelines.",
+              "Collaborated with team members to ensure successful project completion.",
+              "I also contributed to defining and designing the UI/UX strategy, resulting in an increase in  user satisfaction."
             ]
         }
     ],
@@ -202,7 +205,7 @@
     ],
     "Contact.Pretitle": "What’s Next",
     "Contact.Title": "Get in touch!",
-    "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message. Simple one-page design that features a profile letter with basic information about a person.",
+    "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message.",
     "Contact.Btn": "Say Hello"
 
 

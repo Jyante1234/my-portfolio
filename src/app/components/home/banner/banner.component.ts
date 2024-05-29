@@ -2,6 +2,7 @@ import { Component, OnInit, AfterViewInit } from '@angular/core';
 
 import {trigger, state, style, animate, transition, stagger, query } from "@angular/animations"
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
+import { LanguageService } from 'src/app/services/language/language.service';
 
 @Component({
   selector: 'app-banner',
@@ -26,13 +27,29 @@ import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 export class BannerComponent implements OnInit {
 
   
-
+  cvName: string = "";
   constructor(
-    public analyticsService: AnalyticsService
+    public analyticsService: AnalyticsService,
+    public languageService: LanguageService
   ) { }
 
   ngOnInit(): void { 
   }
   
+  openMail() {
+    window.open('https://mail.google.com/mail/?view=cm&fs=1&to=rjyante000@gmail.com')
+  }
+  downloadCV(){
+    this.languageService.translateService.get("Header.cvName").subscribe(val => {
+      this.cvName = val
+      console.log(val)
+      // app url
+      let url = window.location.href;
+
+      // Open a new window with the CV
+      window.open(url + "/../assets/cv/" + this.cvName, "_blank");
+    })
+
+  }
 
 }
